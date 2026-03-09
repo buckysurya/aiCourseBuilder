@@ -10,8 +10,8 @@ import ShinyButton from "@/components/ui/shiny-button";
 const Hero = () => {
   const { user } = useUser();
   return (
-    <section className="py-20 md:py-32">
-      <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:items-center">
+    <section className="py-15 md:py-32">
+      <div className="mx-auto max-w-screen-xl px-4 py-30 lg:flex lg:items-center">
         <div className="mx-auto max-w-xl text-center">
           <GradientTextAnimation title="Introducting AI Course Generator" />
           <WordPullUp
