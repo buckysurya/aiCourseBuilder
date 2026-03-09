@@ -29,7 +29,7 @@ const Header = () => {
           </Link>
         ) : (
           <div className="justify-end items-center gap-4 flex">
-            <Link href="http://localhost:3000">
+            <Link href="https://ai-career-coach-seven-pi.vercel.app/">
               <Button>AI Career Coach</Button>
           </Link>
           <Link href="/dashboard">
